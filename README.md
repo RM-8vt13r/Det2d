@@ -16,7 +16,7 @@ testing:
 - test_keypoints.det2d.json: dummy poses used in test_read.py
 
 Installation:
-`pip install git+https://gitlab.tudelft.nl/medical-process-engineering/det2d-read.git`
+`pip install git+https://github.com/RM-8vt13r/Det2d.git`
 
 Usage:
 ```python

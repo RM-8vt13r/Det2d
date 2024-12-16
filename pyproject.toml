@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "det2d-read"
+version = "0.2.3"
+authors = [
+  { name="Rick M. Butler", email="r.m.butler@tudelft.nl" },
+]
+description = "A package to read pose detections and tracklets from .det2d.json files"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+	"Development Status :: 4 - Beta",
+	"Intended Audience :: Science/Research",
+	"Natural Language :: English",
+	"Topic :: File Formats :: JSON",
+	"Topic :: Software Development :: Libraries"
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://gitlab.tudelft.nl/medical-process-engineering/det2d-read/"
+Repository = "https://gitlab.tudelft.nl/medical-process-engineering/det2d-read/"
+Issues = "https://gitlab.tudelft.nl/medical-process-engineering/det2d-read/-/issues"
